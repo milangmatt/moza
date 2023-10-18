@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        white: "#fff",
         dimgray: "#525c60",
         darkslategray: {
           "100": "#274c5b",
           "200": "#124459",
         },
         darkseagreen: "#7eb693",
-        white: "#fff",
         steelblue: {
           "100": "#4a95d7",
           "200": "#0581b4",
@@ -41,6 +41,7 @@ module.exports = {
         lemonchiffon: "#fff4cd",
         gainsboro: "#d9d9d9",
         darkolivegreen: "#48762b",
+        skyblue: "#2fa6c6",
       },
       spacing: {},
       fontFamily: {
@@ -52,9 +53,9 @@ module.exports = {
         "josefin-sans-thin": "'Josefin Sans Thin'",
       },
       borderRadius: {
-        "11xl": "30px",
         "12xl": "31px",
         "15xl": "34px",
+        "11xl": "30px",
         "9xl-9": "28.9px",
         "7xs-8": "5.8px",
         "2xl-7": "21.7px",
@@ -64,6 +65,7 @@ module.exports = {
         "2xl-9": "21.9px",
         "17xl-2": "36.2px",
         "8xs": "5px",
+        "21xl": "40px",
       },
     },
     fontSize: {
@@ -85,9 +87,13 @@ module.exports = {
       "mini-4": "14.4px",
       "17xl-2": "36.2px",
       "2xs-9": "10.9px",
+      "34xl-2": "53.2px",
       "lgi-2": "19.2px",
       "7xl-6": "26.6px",
       "5xl": "24px",
+      "131xl": "150px",
+      "112xl": "131px",
+      "130xl": "149px",
       inherit: "inherit",
     },
   },

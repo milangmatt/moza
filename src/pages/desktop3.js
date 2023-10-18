@@ -1,9 +1,9 @@
 import { useCallback } from "react";
 import Header from "../components/header";
 import WholenessForm from "../components/wholeness-form";
-import Property1Default1 from "../components/property1-default1";
+import Property1Default11 from "../components/property1-default1";
 import FormContainer from "../components/form-container";
-import Property1Default from "../components/property1-default";
+import Property1Default2 from "../components/property1-default";
 import PureFlavoringContainer from "../components/pure-flavoring-container";
 import PureFlaveringsContainer1 from "../components/pure-flaverings-container1";
 import MindfulChocolatesContainer1 from "../components/mindful-chocolates-container1";
@@ -12,7 +12,7 @@ import FilterFormContainer1 from "../components/filter-form-container1";
 import CardContainer from "../components/card-container";
 import NewsCard1 from "../components/news-card1";
 import NewsletterForm1 from "../components/newsletter-form1";
-import Component3 from "../components/component3";
+import Component31 from "../components/component3";
 
 const Desktop3 = () => {
   const onFrameContainerClick = useCallback(() => {
@@ -23,10 +23,8 @@ const Desktop3 = () => {
   }, []);
 
   return (
-    
     <div className="relative bg-white w-full h-[10561px] overflow-hidden text-left text-31xl text-steelblue-300 font-josefin-sans-thin">
-      <Header />
-      <div className="absolute top-[228px] left-[68px] text-[150px] leading-[130px]">
+      <div className="absolute top-[228px] left-[68px] text-131xl leading-[130px]">
         <p className="m-0">
           <b className="font-josefin-sans-thin">MOZA</b>
         </p>
@@ -36,7 +34,7 @@ const Desktop3 = () => {
         Choose the best healthier way of life
       </div>
       <div
-        className="absolute top-[715.5px] left-[65.5px] rounded-[40px] box-border w-[491px] overflow-hidden flex flex-row items-center justify-center py-5 px-2.5 gap-[10px] cursor-pointer text-6xl border-[5px] border-solid border-steelblue-300"
+        className="absolute top-[715.5px] left-[65.5px] rounded-21xl box-border w-[491px] overflow-hidden flex flex-row items-center justify-center py-5 px-2.5 gap-[10px] cursor-pointer text-6xl border-[5px] border-solid border-steelblue-300"
         onClick={onFrameContainerClick}
       >
         <div className="relative">EXPLORE</div>
@@ -54,7 +52,7 @@ const Desktop3 = () => {
         />
         <div className="relative">100% Natural Food</div>
       </div>
-      
+      <Header />
       <img
         className="absolute top-[54px] left-[587px] w-[833px] h-[833px] object-cover"
         alt=""
@@ -89,7 +87,7 @@ const Desktop3 = () => {
       <b className="absolute top-[1904px] left-[276px] inline-block text-darkslategray-100 text-center w-[911px]">
         Constraints of Everyday Dietary, Nutritional and Remedial Foods
       </b>
-      <Property1Default1
+      <Property1Default11
         untitled11="/untitled1-11@2x.png"
         uvrFd1="/uvr-fd-11@2x.png"
         property1DefaultPosition="absolute"
@@ -121,7 +119,7 @@ const Desktop3 = () => {
         <p className="m-0">{`Explore our `}</p>
         <p className="m-0">Holistic health categories</p>
       </b>
-      <Property1Default
+      <Property1Default2
         whatsAppImage20231012At74="/whatsapp-image-20231012-at-7427@2x.png"
         whatsAppImage20231012At741="/whatsapp-image-20231012-at-7428@2x.png"
         whatsAppImage20231012At742="/whatsapp-image-20231012-at-7429@2x.png"
@@ -152,7 +150,7 @@ const Desktop3 = () => {
       <NewsCard1 />
       <NewsletterForm1 />
       <div className="absolute top-[8929px] left-[308px] w-[791px] h-[570px] overflow-hidden">
-        <Component3
+        <Component31
           image="/image20@2x.png"
           star="/star18.svg"
           navigation1="/navigation1.svg"

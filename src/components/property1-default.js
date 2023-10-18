@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 
-const Property1Default = ({
+const Property1Default2 = ({
   whatsAppImage20231012At74,
   whatsAppImage20231012At741,
   whatsAppImage20231012At742,
@@ -12,7 +12,7 @@ const Property1Default = ({
   property1DefaultTop,
   property1DefaultLeft,
 }) => {
-  const property1DefaultStyle = useMemo(() => {
+  const property1Default1Style = useMemo(() => {
     return {
       position: property1DefaultPosition,
       top: property1DefaultTop,
@@ -23,7 +23,7 @@ const Property1Default = ({
   return (
     <div
       className="w-[1440px] h-[608px] overflow-hidden"
-      style={property1DefaultStyle}
+      style={property1Default1Style}
     >
       <div className="absolute top-[58px] left-[calc(50%_-_720px)] flex flex-row items-center justify-start py-0 px-[75px] gap-[150px]">
         <img
@@ -66,4 +66,4 @@ const Property1Default = ({
   );
 };
 
-export default Property1Default;
+export default Property1Default2;

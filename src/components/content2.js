@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 
-const Content2 = ({
+const Content21 = ({
   image,
   star,
   navigation1,
@@ -14,7 +14,7 @@ const Content2 = ({
   testimonialColor,
   testimonialDisplay,
 }) => {
-  const content2Style = useMemo(() => {
+  const content1Style = useMemo(() => {
     return {
       height: contentHeight,
     };
@@ -51,7 +51,7 @@ const Content2 = ({
   return (
     <div
       className="w-[780px] flex flex-col items-center justify-center gap-[60px] text-center text-31xl text-darkslategray-100 font-roboto"
-      style={content2Style}
+      style={content1Style}
     >
       <div className="relative w-[633px] h-[116px]" style={headingStyle}>
         <div
@@ -99,4 +99,4 @@ const Content2 = ({
   );
 };
 
-export default Content2;
+export default Content21;

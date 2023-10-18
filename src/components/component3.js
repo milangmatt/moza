@@ -1,8 +1,8 @@
 import { useMemo } from "react";
-import Content2 from "./content2";
-import Content1 from "./content1";
+import Content21 from "./content2";
+import Content11 from "./content1";
 
-const Component3 = ({
+const Component31 = ({
   image,
   star,
   navigation1,
@@ -59,7 +59,7 @@ const Component3 = ({
       className="flex flex-row items-center justify-center gap-[11px] text-center text-31xl text-darkslategray-100 font-roboto"
       style={component3Style}
     >
-      <Content2
+      <Content21
         image="/image@2x.png"
         star="/star1.svg"
         navigation1="/navigation.svg"
@@ -73,7 +73,7 @@ const Component3 = ({
         testimonialColor="#7eb693"
         testimonialDisplay="inline-block"
       />
-      <Content1 star="/star1.svg" contentHeight="523.75px" />
+      <Content11 star="/star1.svg" contentHeight="523.75px" />
       <div className="w-[780px] h-[523.75px] flex flex-col items-center justify-center gap-[60px]">
         <div className="relative w-[633px] h-[116px]">
           <div className="absolute top-[57px] left-[0px] font-extrabold">
@@ -120,4 +120,4 @@ const Component3 = ({
   );
 };
 
-export default Component3;
+export default Component31;

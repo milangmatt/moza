@@ -1,13 +1,13 @@
 import { useMemo } from "react";
 
-const Property1Default1 = ({
+const Property1Default11 = ({
   untitled11,
   uvrFd1,
   property1DefaultPosition,
   property1DefaultTop,
   property1DefaultLeft,
 }) => {
-  const property1Default1Style = useMemo(() => {
+  const property1DefaultStyle = useMemo(() => {
     return {
       position: property1DefaultPosition,
       top: property1DefaultTop,
@@ -18,7 +18,7 @@ const Property1Default1 = ({
   return (
     <div
       className="w-[1440px] h-[861px] overflow-hidden"
-      style={property1Default1Style}
+      style={property1DefaultStyle}
     >
       <div className="absolute top-[0px] left-[-22px] w-[2944.83px] h-[861px]">
         <img
@@ -56,4 +56,4 @@ const Property1Default1 = ({
   );
 };
 
-export default Property1Default1;
+export default Property1Default11;
